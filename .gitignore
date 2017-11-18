@@ -1,4 +1,4 @@
 node_modules
 clientsecret
 client_id.json
-config/keys.js
+config/dev.js
