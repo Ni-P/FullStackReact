@@ -1,0 +1,20 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+            "jsx": true
+        }
+  },
+  "env": {
+        "node": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+        "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+        "no-console": ["warn"]
+    }
+}
