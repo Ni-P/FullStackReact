@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-export default function(state = {}, action) {
-  console.log(action);
-  switch (action.type) {
-    default:
-      return state;
-  }
-}
-=======
-import { FETCH_USER } from '../actions/types';
+import { FETCH_USER } from "../actions/types";
 
 export default function(state = null, action) {
   // console.log(action);
@@ -18,4 +9,3 @@ export default function(state = null, action) {
       return state;
   }
 }
->>>>>>> 636e17baf590683782d446709d5271123627c3ac

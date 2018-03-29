@@ -1,25 +1,12 @@
-<<<<<<< HEAD
-import axios from 'axios';
-import { FETCH_USER } from './types';
-
-export const fetchUser = () => {
-  return function(dispatch) {
-    axios.get('/api/current_user').then(res => {
-      dispatch({ type: FETCH_USER, payload: res });
-    });
-  };
-};
-=======
-import axios from 'axios';
-import { FETCH_USER } from './types';
+import axios from "axios";
+import { FETCH_USER } from "./types";
 
 export const fetchUser = () => async dispatch => {
-  const res = await axios.get('/api/current_user');
+  const res = await axios.get("/api/current_user");
   dispatch({ type: FETCH_USER, payload: res.data });
 };
 
 export const handleToken = token => async dispatch => {
-  const res = await axios.post('/api/stripe', token);
+  const res = await axios.post("/api/stripe", token);
   dispatch({ type: FETCH_USER, payload: res.data });
 };
->>>>>>> 636e17baf590683782d446709d5271123627c3ac
