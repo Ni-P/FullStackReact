@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { connect } from 'react-redux';
-import * as actions from '../actions';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { BrowserRouter, Route } from "react-router-dom";
+import { connect } from "react-redux";
+import * as actions from "../actions";
 
-import Header from './Header.jsx';
+import Header from "./Header.jsx";
 
 const Dashboard = () => <h2>Dashboard</h2>;
 
