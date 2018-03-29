@@ -2,3 +2,4 @@ node_modules
 clientsecret
 client_id.json
 config/dev.js
+yarn.lock
