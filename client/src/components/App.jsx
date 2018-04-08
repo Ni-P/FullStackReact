@@ -6,10 +6,12 @@ import * as actions from '../actions';
 
 import Header from './Header.jsx';
 import Landing from './Landing.jsx';
+import Dashboard from './Dashboard.jsx';
+import SurveyNew from './surveys/SurveyNew.jsx';
 
-const Dashboard = () => <h2>Dashboard</h2>;
+//const Dashboard = () => <h2>Dashboard</h2>;
 
-const SurveyNew = () => <h2>SurveyNew</h2>;
+// const SurveyNew = () => <h2>SurveyNew</h2>;
 
 //const Landing = () => <h2>Landing</h2>;
 
