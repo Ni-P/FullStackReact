@@ -41,3 +41,8 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   // console.log("Server listening at port: " + PORT);
 });
+
+// for dev version to work sendgrid must have at mail settings
+// event notification the url set to https://nipemailysubdomain.localtunnel.me/api/surveys/webhooks
+// for the webhook to work or use second sendgrid account
+// for prod it must point to deployment domain
