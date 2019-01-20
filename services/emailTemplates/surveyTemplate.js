@@ -14,7 +14,7 @@ module.exports = survey => {
   }/yes">Yes</a>
           </div>
           <div>
-            <a href="${keys.redirectDomain}api/surveys/${survey.id}/no">No</a>
+            <a href="${keys.redirectDomain}/api/surveys/${survey.id}/no">No</a>
           </div>
         </div>
       </body>
